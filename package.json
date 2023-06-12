@@ -1,7 +1,7 @@
 {
-  "name": "@adminkit/core",
+  "name": "@Felicity IDC/core",
   "version": "3.4.0",
-  "description": "AdminKit - Bootstrap 5 Admin Template",
+  "description": "Felicity IDC - Bootstrap 5 Admin Template",
   "keywords": [
     "bootstrap",
     "bootstrap 5",
@@ -19,16 +19,16 @@
     "ui kit",
     "web"
   ],
-  "homepage": "https://adminkit.io/",
+  "homepage": "https://Felicity IDC.io/",
   "bugs": {
-    "url": "https://github.com/adminkit/adminkit/issues"
+    "url": "https://github.com/Felicity IDC/Felicity IDC/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/adminkit/adminkit.git"
+    "url": "git+https://github.com/Felicity IDC/Felicity IDC.git"
   },
   "license": "MIT",
-  "author": "Paul Laros <support@adminkit.io>",
+  "author": "Paul Laros <support@Felicity IDC.io>",
   "files": [
     "dist"
   ],

@@ -1,6 +1,6 @@
 import "../scss/app.scss";
 
-// AdminKit (required)
+// Felicity IDC (required)
 import "./modules/bootstrap";
 import "./modules/sidebar";
 import "./modules/theme";
