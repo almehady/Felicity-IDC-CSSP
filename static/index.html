@@ -18,7 +18,9 @@
 
 	<link href="css/app.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 </head>
+
 
 <body>
 	<div class="wrapper">
@@ -57,11 +59,13 @@
             </a>
 					</li>
 
-					<li class="sidebar-item">
-						<a class="sidebar-link" href="pages-blank.html">
-              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Blank</span>
+					 <li class="sidebar-item">
+						<a class="sidebar-link" href="containment.html">
+              <i class="align-middle" data-feather="book"></i> <span class="align-middle">Containment</span>
             </a>
 					</li>
+
+		
 
 					<li class="sidebar-header">
 						Tools & Components
@@ -395,6 +399,8 @@
 					</div>
 
 				</div>
+
+				
 			</main>
 
 			<footer class="footer">
@@ -427,6 +433,17 @@
 		</div>
 	</div>
 
+	<script>
+		var toggler = document.getElementsByClassName("caret");
+		var i;
+		
+		for (i = 0; i < toggler.length; i++) {
+		  toggler[i].addEventListener("click", function() {
+			this.parentElement.querySelector(".nested").classList.toggle("active");
+			this.classList.toggle("caret-down");
+		  });
+		}
+		</script>
 	<script src="js/app.js"></script>
 
 	<script>
