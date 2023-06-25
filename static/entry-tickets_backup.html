@@ -14,20 +14,13 @@
 
 	<link rel="canonical" href="https://demo-basic.Felicity IDC.io/pages-blank.html" />
 
-	<title>Entry Ticket | Felicity IDC Demo</title>
+	<title>Blank Page | Felicity IDC Demo</title>
 
 	<link href="css/app.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
-<style>
-	.button_style {
-	background: #55ca55;
-    padding: 9px;
-    border-radius: 3px;
-    color: #fff;
-	}
-	</style>
+
 <body>
 	<div class="wrapper">
 		<nav id="sidebar" class="sidebar js-sidebar">
@@ -274,58 +267,54 @@
 			<main class="content">
 				<div class="container-fluid p-0">
 
-		
+					<h1 class="h3 mb-3">Entry Ticket</h1>
 
 					<div class="row">
 						<div class="col-12">
-							<h1>Entry Ticket</h1>
-    <form id="generalTicketForm">
-      <div class="form-group name">
-        <label for="name">Name:</label>
-        <input type="text" id="name" required>
-      </div>
-      <div class="form-group Seat">
-        <label for="seatNumber">Subject:</label>
-        <input type="text" id="seatNumber" required>
-      </div>
-     <div class="form-group msg">
-      <label for="message">Message:</label>
-      <textarea id="message" rows="4" required></textarea>
-     </div>
-    
-     <div class="form-group priority">
-      <label for="priority">Priority:</label>
-      <select id="priority" required>
-        <option value="">Select Priority</option>
-        <option value="low">Low</option>
-        <option value="medium">Medium</option>
-        <option value="high">High</option>
-      </select>
-     </div>
-	 <div class="form-group date">
-		<label for="entryDate">Date of Entry:</label>
-		<input type="date" id="entryDate" required>
-	  </div>
-	 <div class="form-group Time">
-		<label for="entryTime">Time of Entry:</label>
-		<input type="time" id="entryTime" required>
-	  </div>
-
-	  <div class="form-group People">
-		<label for="numOfPeople">Number of People:</label>
-		<input type="number" id="numOfPeople" min="1" required>
-	  </div>
-     <div class="form-group attachment">
-      <label for="attachment">Attachment: Upload NID/Password Details</label>
-      <input type="file" id="attachment"> <br>
-     </div>
-     <div>
-      <!-- <button type="submit">Submit</button> -->
-	  <div>
-	  <a class="button_style" href="tickets.html">Submit</a>
-	  </div>
-     </div>
-  </form>
+							<form id="ticketForm">
+								<form action="thank-you.html">
+								  <h2>Information form</h2>
+								  <div class="form-group fullname">
+									<label for="fullname">Full Name</label>
+									<input type="text" id="fullname" placeholder="Enter your full name">
+								  </div>
+								  <div class="form-group email">
+									<label for="email">Email Address</label>
+									<input type="text" id="email" placeholder="Enter your email address">
+								  </div>
+								  <div class="form-group password">
+									<label for="password">Password</label>
+									<input type="password" id="password" placeholder="Enter your password">
+									<i id="pass-toggle-btn" class="fa-solid fa-eye"></i>
+								  </div>
+								  <div class="form-group date">
+									<label for="date">Birth Date</label>
+									<input type="date" id="date" placeholder="Select your date">
+								  </div>
+								  <div class="form-group gender">
+									<label for="gender">Gender</label>
+									<select id="gender">
+									  <option value="" selected disabled>Select your gender</option>
+									  <option value="Male">Male</option>
+									  <option value="Female">Female</option>
+									  <option value="Other">Other</option>
+									</select>
+								  </div>
+								  <div class="form-group Time">
+									<label for="entryTime">Time of Entry:</label>
+									<input type="time" id="entryTime" required>
+								  </div>
+								  <div class="form-group date">
+									<label for="entryDate">Date of Entry:</label>
+									<input type="date" id="entryDate" required>
+								  </div>
+								  <div class="form-group People">
+									<label for="numOfPeople">Number of People:</label>
+									<input type="number" id="numOfPeople" min="1" required>
+								  </div>
+								  <button type="submit" id="nextBtn">Next</button>
+							  </form>
+						  
 						</div>
 					</div>
 
